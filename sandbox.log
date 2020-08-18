@@ -34,3 +34,6 @@
 20:56:25.263 [sandbox-akka.actor.default-dispatcher-4] INFO  akka.event.slf4j.Slf4jLogger - Slf4jLogger started 
 20:56:38.535 [pool-1-thread-2] INFO  c.d.p.apiserver.LedgerApiServer - Listening on localhost:6865 over plain text. 
 20:56:38.604 [pool-1-thread-3] INFO  com.daml.platform.sandboxnext.Runner - Initialized sandbox version 1.4.0 with ledger-id = 898b0f76-7453-4d74-9d41-d0168018c58b, port = 6865, dar file = List(.daml/dist/NTTPilot-2.0.0.dar), time mode = wall-clock time, ledger = in-memory, auth-service = AuthServiceWildcard$, contract ids seeding = strong 
+12:19:35.584 [sandbox-akka.actor.default-dispatcher-6] INFO  akka.event.slf4j.Slf4jLogger - Slf4jLogger started 
+12:19:44.708 [pool-1-thread-4] INFO  c.d.p.apiserver.LedgerApiServer - Listening on localhost:6865 over plain text. 
+12:19:44.752 [pool-1-thread-3] INFO  com.daml.platform.sandboxnext.Runner - Initialized sandbox version 1.4.0 with ledger-id = b188c87e-bb78-44d2-97f3-fd5794e6c47f, port = 6865, dar file = List(.daml/dist/NTTPilot-2.0.0.dar), time mode = wall-clock time, ledger = in-memory, auth-service = AuthServiceWildcard$, contract ids seeding = strong 

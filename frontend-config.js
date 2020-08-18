@@ -68,11 +68,11 @@ export const customViews = (userId, party, role) => ({
         alignment: "left"
       },
       {
-        key: "argument.token_price",
+        key: "argument.token_value",
         title: "Token Price",
         createCell: ({rowData}) => ({
           type: "text",
-          value: DamlLfValue.toJSON(rowData.argument).token_price
+          value: DamlLfValue.toJSON(rowData.argument).token_value
         }),
         sortable: true,
         width: 80,
@@ -138,11 +138,11 @@ export const customViews = (userId, party, role) => ({
         alignment: "left"
       },
       {
-        key: "argument.token_price",
+        key: "argument.token_value",
         title: "Token Price",
         createCell: ({rowData}) => ({
           type: "text",
-          value: DamlLfValue.toJSON(rowData.argument).token_price
+          value: DamlLfValue.toJSON(rowData.argument).token_value
         }),
         sortable: true,
         width: 50,
